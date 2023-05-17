@@ -28,4 +28,4 @@ server <- function(input, output) {
   })
 }
 
-shinyApp(ui = ui, server = server,options = list(host = ), port = 5002))
+shinyApp(ui = ui, server = server,options = list(host = "put your host here"), port = 5002))
